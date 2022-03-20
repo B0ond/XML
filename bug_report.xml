@@ -1,1 +1,23 @@
-
+<root>
+  <id>1</id>
+  <title>аутентификация_пользователя_на_www.goszakupky.ru</title>
+  <priority>1</priority>
+  <siverity>1</siverity>
+  <environment>
+    <browser>Chrome_99.0.4844.74</browser>
+    <OS>Windows 10</OS>
+    <country>Russia</country>
+    <proxy>gov.rf.ru</proxy>
+    <Antivirus>Kaspersky free antivirus_20.1.1</Antivirus>
+    <Cryptography_key>govkey.key</Cryptography_key>
+  </environment>
+  <attachment>www.gov.filesaver/file1.jpg</attachment>
+  <attachment>www.gov.filesaver/file2.mp4</attachment>
+  <description>При выборе вход через ЭЦП не заходит на сайт выводит ошибку 400</description>
+  <steps>нажимаем вход через ЭЦП на сайте www.goszakupky.ru</steps>
+  <expected>появлется окно подверждения ЭЦП нажимаем далее, после этого успешно проходим авторизацию</expected>
+  <actual>выдает ошибку 400</actual>
+  <workaround>Удалить Kspersky free antivirus_20.1.1</workaround>
+  <bag_report_create>Amiram Yalaltdinov</bag_report_create>
+  <Fixing>Vasya Pupkin</Fixing>
+</root>
